@@ -1,0 +1,43 @@
+/* ===== Tablet Styles (min-width: 768px) ===== */
+@media (min-width: 768px) {
+    header h1 {
+        font-size: 2.8em;
+    }
+
+    header h2 {
+        font-size: 1.3em;
+    }
+
+    main {
+        padding: 40px 50px;
+    }
+
+    main p {
+        font-size: 1.1em;
+    }
+}
+
+/* ===== Desktop Styles (min-width: 992px) ===== */
+@media (min-width: 992px) {
+    main {
+        max-width: 900px;
+        margin: auto;
+        padding: 50px 60px;
+    }
+
+    header h1 {
+        font-size: 3.2em;
+    }
+
+    header h2 {
+        font-size: 1.5em;
+    }
+
+    main p {
+        font-size: 1.2em;
+    }
+
+    footer {
+        font-size: 1em;
+    }
+}
