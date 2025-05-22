@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
     const newsContainer = document.getElementById("news-container");
-    const apiKey = "bef76fd9459045faa840aaeceacb599f"; // 🔁 Replace this with your real API key
+    const apiKey = "bef76fd9467145faa840aaeceacb5333d"; //Use Your API key, THis is a dummy key for security purposes :) 
     const url = `https://newsapi.org/v2/top-headlines?country=us&pageSize=5&apiKey=${apiKey}`;
 
     async function fetchNews() {
